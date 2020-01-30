@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS b_vu_taskmail_mail_to_task;
