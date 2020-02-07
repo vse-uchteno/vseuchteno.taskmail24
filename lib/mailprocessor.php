@@ -40,8 +40,6 @@ class MailProcessor {
 		}
 		
 		$arMessages=$obB24mail->getMessageslist($mailboxId, $phrase);
-		echo(count($arMessages));
-		print_r($arMessages);
 		
 		foreach ($arMessages as $arMessage) {
 			$obB24task= new B24task();
